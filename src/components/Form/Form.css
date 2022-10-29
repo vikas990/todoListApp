@@ -1,0 +1,27 @@
+.todoForm {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  gap: 1rem;
+}
+
+input {
+  width: 90%;
+  padding: 0.625rem;
+  border-radius: 1.25rem;
+  border: none;
+  background-color: #c0eadb;
+  margin-left: 2rem;
+}
+
+button {
+  border: none;
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+  width: 15%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c0eadb;
+}

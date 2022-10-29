@@ -1,0 +1,28 @@
+.todo {
+  display: flex;
+  list-style: none;
+  color: white;
+  gap: 0.2rem;
+  background: #5bb796;
+  border-radius: 0.5rem;
+  margin: 0.625rem 0;
+  padding: 0.5;
+  width: 70%;
+  height: 20%;
+}
+
+.text {
+  flex: 1;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0.3rem;
+}
+
+.todo__btn {
+  background: white;
+  border: none;
+  color: black;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  margin: 0.5rem;
+}

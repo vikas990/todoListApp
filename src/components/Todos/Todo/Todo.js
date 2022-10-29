@@ -1,7 +1,7 @@
 import React from "react";
 import "./Todo.css";
 
-const Todo = ({ text, id, DeleteTodo, EditTodo }) => {
+const Todo = ({ text, id, DeleteTodo, EditTodo, slideOut }) => {
   return (
     <div className="todo">
       <li className="text">{text}</li>
